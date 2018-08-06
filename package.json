@@ -1,0 +1,35 @@
+{
+  "name": "sequelizeburger",
+  "version": "1.0.0",
+  "description": "This app lets the user create and \"devour\" their own burger creations. The app uses a mySQL database to store user information. I also used the npm \"method-override\" to make interacting with the database a bit easier. Make sure that you run an npm install before you begin the app (all dependencies are in the package.json file).",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhidalgo83/sequelizeBurger.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mhidalgo83/sequelizeBurger/issues"
+  },
+  "homepage": "https://github.com/mhidalgo83/sequelizeBurger#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "fs": "0.0.1-security",
+    "method": "^2.0.0",
+    "method-override": "^3.0.0",
+    "mysql": "^2.16.0",
+    "mysql2": "^1.6.1",
+    "nodemon": "^1.18.3",
+    "override": "0.0.1",
+    "path": "^0.12.7",
+    "sequelize": "^4.38.0"
+  },
+  "devDependencies": {}
+}

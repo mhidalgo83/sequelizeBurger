@@ -1,0 +1,20 @@
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+}
+
+body {
+    background-image: url("../images/27081176-burger-wallpapers.jpg");
+    background-position: center;
+    background-size: 100%;
+    color: white;
+    margin: auto;
+}
+
+header {
+    text-align: center;
+    font-weight: bolder;
+}
